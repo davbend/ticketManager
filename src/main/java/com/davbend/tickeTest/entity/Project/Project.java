@@ -11,8 +11,9 @@ public class Project
 
     public Project(){}
 
-    public Project(String nameProject, ArrayList<Task> tasks)
+    public Project(int idProject,String nameProject, ArrayList<Task> tasks)
     {
+        this.idProject= idProject;
         this.nameProject = nameProject;
         this.tasks = tasks;
     }

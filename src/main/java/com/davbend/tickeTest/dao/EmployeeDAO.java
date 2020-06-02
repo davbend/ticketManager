@@ -35,7 +35,7 @@ public class EmployeeDAO
 
     public Collection<Employee> getEmployees()
     {
-        return this.employees.values();
+        return employees.values();
     }
 
     public Employee getEmployeeByID(int id)

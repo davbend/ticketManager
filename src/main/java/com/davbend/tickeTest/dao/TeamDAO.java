@@ -46,12 +46,12 @@ public class TeamDAO
 
     public Collection<Team> getAllTeams()
     {
-        return this.teams.values();
+        return teams.values();
     }
 
     public Team getTeamByID(int id)
     {
-        return this.teams.get(id);
+        return teams.get(id);
     }
 
 
